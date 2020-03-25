@@ -1,0 +1,23 @@
+{
+  "_id": "page.app-ni",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.app-ni--text.auto_name__5",
+      "_type": "text",
+      "hint": "National Insurance number\r\n\r\nYou can find this on the back of your biometric residency permit (BRP). For example, ‘AB 12 34 56 C’.",
+      "label": "What is your National Insurance number?",
+      "name": "auto_name__5",
+      "validation": {
+        "maxLength": 9,
+        "minLength": 9,
+        "pattern": "[ABCEGHJKLMNOPRSTWXYZ][ABCEGHJKLMNPRSTWXYZ][0-9]{6}[A-D ]"
+      }
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.app-ho-ref"
+  ],
+  "url": "app-ni"
+}

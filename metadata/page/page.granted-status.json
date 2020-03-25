@@ -1,0 +1,18 @@
+{
+  "_id": "page.granted-status",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.granted-status--date.auto_name__1",
+      "_type": "date",
+      "hint": "You can find this date on your biometric residence permit (BRP).\r\n\r\n[% hint.date %]",
+      "legend": "What date were you granted refugee or humanitarian protection status?",
+      "name": "auto_name__1"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.employment"
+  ],
+  "url": "granted-status"
+}

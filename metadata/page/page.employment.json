@@ -1,0 +1,55 @@
+{
+  "_id": "page.employment",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.employment--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.employment--radios.auto_name__2--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Not employed (on universal credit)",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.employment--radios.auto_name__2--radio.auto_value__4",
+          "_type": "radio",
+          "label": "Work part-time",
+          "value": "auto_value__4"
+        },
+        {
+          "_id": "page.employment--radios.auto_name__2--radio.auto_value__5",
+          "_type": "radio",
+          "label": "Work full-time",
+          "value": "auto_value__5"
+        },
+        {
+          "_id": "page.employment--radios.auto_name__2--radio.auto_value__6",
+          "_type": "radio",
+          "label": "Self-employed",
+          "value": "auto_value__6"
+        },
+        {
+          "_id": "page.employment--radios.auto_name__2--radio.auto_value__7",
+          "_type": "radio",
+          "label": "Retired",
+          "value": "auto_value__7"
+        },
+        {
+          "_id": "page.employment--radios.auto_name__2--radio.auto_value__8",
+          "_type": "radio",
+          "label": "Full-time student",
+          "value": "auto_value__8"
+        }
+      ],
+      "legend": "What is your employment status?",
+      "name": "auto_name__2"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.app-brp"
+  ],
+  "url": "employment"
+}

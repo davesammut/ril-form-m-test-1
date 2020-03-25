@@ -1,9 +1,11 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "**This is the main content section of your start page**\r\n\r\n[Edit this page](/edit) with content for your own service.\r\n\r\n## Adding more content\r\n\r\nYou can add multiple headings, links and paragraphs - all in this one content section.\r\n\r\nUse [markdown](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/markdown) to format headings, bullet lists and links.",
-  "heading": "This is your start page heading",
-  "lede": "This is your start page first paragraph. You can only have one paragraph here.",
-  "steps": [],
+  "body": "To apply, you will need your:\r\n- biometric residence permit (BRP)\r\n- bank account or ASPEN card details\r\n- Home Office reference number\r\n\r\nApplying takes around 10 minutes.",
+  "heading": "Apply for a refugee integration loan",
+  "lede": "If you are a refugee or have been given humanitarian protection, you might be able to apply for a loan of up to £1000 to help you integrate into UK society.",
+  "steps": [
+    "page.joint"
+  ],
   "url": "/"
 }

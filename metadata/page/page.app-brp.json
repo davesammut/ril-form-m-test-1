@@ -1,0 +1,32 @@
+{
+  "_id": "page.app-brp",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.app-brp--date.auto_name__3",
+      "_type": "date",
+      "hint": "[% hint.date %]",
+      "legend": "Date of birth",
+      "name": "auto_name__3"
+    },
+    {
+      "_id": "page.app-brp--text.auto_name__4",
+      "_type": "text",
+      "hint": "For example, ‘RE1234567’.",
+      "label": "Biometric residence permit (BRP) number ",
+      "name": "auto_name__4",
+      "validation": {
+        "maxLength": 9,
+        "minLength": 9,
+        "pattern": "(([A-Z]){2})[X0-9]\\d{6}"
+      }
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Your Biometric residence permit (BRP)",
+  "lede": "Enter your details as they appear on your Biometric residence permit (BRP).",
+  "steps": [
+    "page.app-ni"
+  ],
+  "url": "app-brp"
+}

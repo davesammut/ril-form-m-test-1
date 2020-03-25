@@ -1,0 +1,68 @@
+{
+  "_id": "page.income",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.income--checkboxes",
+      "_type": "checkboxes",
+      "hint": "Select all options that are relevant to you.",
+      "items": [
+        {
+          "_id": "page.income--checkboxes--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.income--checkboxes--checkbox.auto_name__12--text.auto_name__13",
+            "_type": "text",
+            "label": "Total amount per month",
+            "name": "auto_name__13",
+            "optionalText": "£"
+          },
+          "label": "Salary",
+          "name": "auto_name__12"
+        },
+        {
+          "_id": "page.income--checkboxes--checkbox.auto_name__14",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.income--checkboxes--checkbox.auto_name__14--text.auto_name__15",
+            "_type": "text",
+            "label": "Total amount per month",
+            "name": "auto_name__15"
+          },
+          "label": "Universal credit",
+          "name": "auto_name__14"
+        },
+        {
+          "_id": "page.income--checkboxes--checkbox.auto_name__16",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.income--checkboxes--checkbox.auto_name__16--text.auto_name__17",
+            "_type": "text",
+            "label": "Total amount per month",
+            "name": "auto_name__17"
+          },
+          "label": "Child maintenance or support",
+          "name": "auto_name__16"
+        },
+        {
+          "_id": "page.income--checkboxes--checkbox.auto_name__18",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.income--checkboxes--checkbox.auto_name__18--text.auto_name__19",
+            "_type": "text",
+            "label": "Total amount per month",
+            "name": "auto_name__19"
+          },
+          "label": "Other",
+          "name": "auto_name__18"
+        }
+      ],
+      "legend": "Your monthly income"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.check-answers"
+  ],
+  "url": "income"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "page.app-ho-ref",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.app-ho-ref--text.auto_name__6",
+      "_type": "text",
+      "hint": "Home Office reference number\r\n\r\nYou can find this on your asylum application letter from the Home Office. \r\n\r\nIt's sometimes called 'Case ID'. For example, ‘A1234567’.",
+      "label": "What is your Home Office reference number?",
+      "name": "auto_name__6",
+      "validation": {
+        "maxLength": 8,
+        "minLength": 8,
+        "pattern": "(([A-Z]){1})\\d{7}"
+      }
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.address"
+  ],
+  "url": "app-ho-ref"
+}

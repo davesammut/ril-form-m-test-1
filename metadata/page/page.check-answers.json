@@ -1,0 +1,9 @@
+{
+  "_id": "page.check-answers",
+  "_type": "page.summary",
+  "actionType": "send.email",
+  "enableSteps": true,
+  "heading": "Check your answers",
+  "steps": [],
+  "url": "check-answers"
+}

@@ -1,9 +1,11 @@
 {
   "_id": "page.check-answers",
   "_type": "page.summary",
-  "actionType": "send.email",
+  "actionType": "continue",
   "enableSteps": true,
-  "heading": "Check your answers",
-  "steps": [],
+  "heading": "That's it, one last step.",
+  "steps": [
+    "page.confirmation"
+  ],
   "url": "check-answers"
 }

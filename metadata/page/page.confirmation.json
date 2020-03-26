@@ -1,0 +1,8 @@
+{
+  "_id": "page.confirmation",
+  "_type": "page.confirmation",
+  "body": "",
+  "heading": "Application Complete",
+  "lede": "Your application has been submitted.",
+  "url": "confirmation"
+}
